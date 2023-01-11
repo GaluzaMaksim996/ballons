@@ -1,0 +1,12 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    @include style-link($color-gray);
+    padding: 1.5rem 4rem;
+    background: $color-white;
+    border-radius: 5rem;
+    font-size: 2rem;
+    border: none;
+  }
+}
