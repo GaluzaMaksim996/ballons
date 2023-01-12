@@ -4,6 +4,11 @@
   border-radius: 0.5rem;
   box-shadow: $box-shadow;
   text-align: center;
+  transition: 0.2s all;
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
 
   &__icon {
     font-size: 6rem;

@@ -10,4 +10,15 @@
     border-bottom: 1px $color-brown-light solid;
     display: inline-block;
   }
+
+  &:hover {
+    background-color: $color-brown-light;
+    color: $color-white;
+    box-shadow: $box-shadow;
+    transform: translateY(-0.2rem);
+  }
+
+  &:active {
+    transform: translateY(0rem);
+  }
 }
